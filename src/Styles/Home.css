@@ -1,0 +1,113 @@
+.home{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 60vh;
+    padding: 2rem 10rem;
+    /* border: 2px solid red; */
+   
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content:center;
+    padding: 3rem 0;
+    
+}
+.content h1{
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.content p{
+    font-size: 1rem;
+    margin: 1rem 0;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    line-height: 1.8rem;
+}
+.content a{
+    width: fit-content;
+    margin:1rem 0;
+}
+.content button{
+    background-color: rgba(23,23,22,255);
+    padding: 0.5rem 1.5rem;
+    width: fit-content;
+    border-radius: 100px;
+    font-weight: 800;
+    font-size: 1rem;
+    cursor: pointer;
+    border: 2px solid crimson;
+    color: crimson;
+}
+.content button:hover{
+    border: 2px solid red;
+    color: rgb(255, 0, 0);
+}
+.home img{
+    width: 50%;
+    padding: 2rem 0; 
+    object-fit: cover;
+       
+}
+@media (min-width:500px) {
+    .content p{
+        width: 70%;
+    }
+    
+}
+@media (max-width:800px) {
+    .home {
+        flex-direction: column ;
+        padding: 1rem 2rem 5rem 2rem;
+        height: 60vh;
+        
+        justify-content: center;
+    }
+    
+    .content{
+        align-items: center;
+        padding:0;
+    }
+    .content h1{
+        text-align: center;
+    }
+    .content p{
+        width: 100%;
+        text-align: center;
+        margin: 1rem 0;
+    }
+    .content a{
+        margin: 0;
+    }
+    .content a button{
+        background-color: rgba(0, 0, 0, 0.039);
+    }
+    .home img{
+        height: 60%;
+        width: 100%;
+    }
+}
+/* --------------------------------------Home 2 ------------------- */
+
+.home2{
+    /* border: 2px solid red; */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.home2 img{
+    width: 50%;
+    height: 70%;
+    border-radius: 100px;
+    margin-left: 2rem;
+
+}
+.content2{
+    width: 50%;
+    height: 100%;
+}

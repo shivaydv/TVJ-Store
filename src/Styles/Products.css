@@ -1,0 +1,21 @@
+.ProductSection{
+    min-height: 40vh;
+    padding: 1rem 0 5rem 0;
+    /* border: 2px solid red; */
+    
+}
+.ProductSection h1{
+    
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 500;
+    font-size: 2rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    /* border: 2px solid green; */
+}
+.ProductSection div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 1rem 1rem ;
+}
